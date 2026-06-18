@@ -1,16 +1,50 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern personal portfolio built with React and Vite.  
+Designed to showcase my projects, skills, certifications, and experience as a Computer Science student.
 
-Currently, two official plugins are available:
+🔗 Live Site: https://portfolio-ae-sage.vercel.app/
+🔗 GitHub: https://github.com/arielleershey/portfolio-ae
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Tech Stack
+- React (Vite)
+- JavaScript (ES6+)
+- CSS (custom design system)
+- Git & GitHub
+- Vercel (deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
+- Responsive modern UI design
+- Interactive project showcase section
+- Skills categorized by tech stack
+- Certificate modal viewer (image-based)
+- Contact section with links (GitHub, Email, LinkedIn)
+- Smooth section-based layout
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📂 Sections
+- Hero introduction
+- Skills overview
+- Projects showcase
+- Experience timeline
+- Contact & certifications
+
+---
+
+## 🎯 Purpose
+This project was built to apply for backend / software development internships and demonstrate frontend implementation skills, UI structuring, and component-based architecture.
+
+---
+
+## 📸 Preview
+(will add this later)
+
+---
+
+## 📌 Status
+Active development – improvements and content updates ongoing.
