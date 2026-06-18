@@ -1,6 +1,9 @@
+import { useState } from "react";
 import { contact } from "../data/contact";
 
 export default function Contact() {
+  const [selectedCert, setSelectedCert] = useState(null);
+
   return (
     <section id="contact">
       {/* LEFT SIDE */}
@@ -37,8 +40,12 @@ export default function Contact() {
 
         <div className="cert-list">
           {contact.certs.map((c, i) => (
-            <div key={i} className="cert-item">
-              <div className="cert-icon">✦</div>
+            <div
+              key={i}
+              className="cert-item"
+              onClick={() => setSelectedCert(c)}
+            >
+              <div className="cert-icon">PDF</div>
               <div>
                 <div className="cert-name">{c.name}</div>
                 <div className="cert-issuer">{c.issuer}</div>
@@ -53,6 +60,29 @@ export default function Contact() {
           <div className="edu-detail">{contact.education.detail}</div>
         </div>
       </div>
+
+      {/* MODAL */}
+      {selectedCert && (
+        <div
+          className="modal-overlay"
+          onClick={() => setSelectedCert(null)}
+        >
+          <div className="modal" onClick={(e) => e.stopPropagation()}>
+            <img
+              src={selectedCert.file}
+              alt={selectedCert.name}
+              className="cert-preview"
+            />
+
+            <button
+              className="close-btn"
+              onClick={() => setSelectedCert(null)}
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

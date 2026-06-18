@@ -3,12 +3,12 @@ export const contact = {
 
   links: [
     {
-      label: "GitHub — NW Corner Solver + More",
-      url: "https://github.com",
+      label: "GitHub — Projects & Code",
+      url: "https://github.com/arielleershey",
       type: "external",
     },
     {
-      label: "Email — arielle@email.com",
+      label: "Email — ariellexershey@email.com",
       url: "mailto:arielle@email.com",
       type: "email",
     },
@@ -19,16 +19,18 @@ export const contact = {
     },
   ],
 
-  certs: [
-    {
-      name: "Database Fundamentals",
-      issuer: "Certiport",
-    },
-    {
-      name: "Python Certification",
-      issuer: "Certiport",
-    },
-  ],
+certs: [
+  {
+    name: "Database Fundamentals",
+    issuer: "Certiport",
+    file: "/certificates/databases_cert.jpg",
+  },
+  {
+    name: "Python Certification",
+    issuer: "Certiport",
+    file: "/certificates/python_cert.jpg",
+  },
+],
 
   education: {
     degree: "B.S. Computer Science & Information Engineering",
